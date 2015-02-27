@@ -278,6 +278,7 @@
             basicProperties = {
                 'title': 1,
                 'type': 1,
+                'cssClass': 1,
                 'code': 1
             },
             typeInfoPropertyMap = {

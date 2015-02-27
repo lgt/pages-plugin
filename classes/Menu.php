@@ -139,7 +139,7 @@ class Menu extends CmsObject
             foreach ($items as $item) {
                 $parentReference = new MenuItemReference();
                 $parentReference->title = $item->title;
-
+                $parentReference->cssClass = $item->cssClass;
                 /*
                  * If the item type is URL, assign the reference the item's URL and compare the current URL with the item URL
                  * to determine whether the item is active.

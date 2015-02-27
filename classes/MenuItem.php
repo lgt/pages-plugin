@@ -42,6 +42,12 @@ class MenuItem
      */
     public $type;
 
+
+    /**
+     * @var string Specifies the menu item type - URL, static page, etc.
+     */
+    public $cssClass;
+
     /**
      * @var string Specifies the URL for URL-type items.
      */
@@ -77,6 +83,7 @@ class MenuItem
         'title',
         'nesting',
         'type',
+        'cssClass',
         'url',
         'code',
         'reference',

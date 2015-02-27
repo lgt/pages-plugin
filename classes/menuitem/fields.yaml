@@ -9,6 +9,9 @@ fields:
         label: rainlab.pages::lang.menuitem.type
         type: dropdown
 
+    cssClass:
+        label: Custom CSS Class
+
     url:
         label: rainlab.pages::lang.menuitem.url
 

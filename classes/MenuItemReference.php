@@ -27,6 +27,12 @@ class MenuItemReference
     public $url;
 
     /**
+     * @var string Specifies the item CSS Class
+     */
+    public $cssClass;
+
+
+    /**
      * @var string Indicates whether the item corresponds the currently viewed page.
      */
     public $isActive = false;
